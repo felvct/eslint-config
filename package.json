@@ -1,0 +1,21 @@
+{
+  "name": "@felvct/eslint-config",
+  "version": "1.0.0",
+  "description": "felvct's custom ESLint config",
+  "main": "eslint.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felvct/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/felvct/eslint-config/issues"
+  },
+  "homepage": "https://github.com/felvct/eslint-config#readme",
+  "keywords": [
+    "felvct",
+    "eslint",
+    "typescript"
+  ],
+  "author": "felvct",
+  "license": "MIT"
+}
