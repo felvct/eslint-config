@@ -71,7 +71,7 @@ module.exports = {
       {
         "code": 120,
         "tabWidth": 2,
-        "ignorePattern": "^import\s.+\sfrom\s.+;$ | ^export\s.+\sfrom\s.+;$"
+        "ignorePattern": "^(import|export)\s.+\sfrom\s.+;$"
       },
     ],
     "no-caller": "error",

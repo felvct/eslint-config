@@ -11,6 +11,11 @@ npm i -D [-E] @felvct/eslint-config
 In your `.eslintrc{.*}`:
 ```json
 {
-  "extends": "@felvct/eslint-config"
+  "extends": "@felvct/eslint-config",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
+
+Run the linter: `npx eslint --ext .ts . [--fix]`
